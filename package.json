@@ -18,11 +18,11 @@
     "nodemon": "^2.0.22"
   },
   "scripts": {
+    "back": "node backend/src/serve.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "nodemon backend/src/serve.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
